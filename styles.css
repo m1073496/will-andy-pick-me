@@ -83,3 +83,7 @@ h1 {
   height: auto;
   width: 300px;
 }
+
+.hidden {
+  visibility: hidden;
+}
