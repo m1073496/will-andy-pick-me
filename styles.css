@@ -35,6 +35,7 @@ h1 {
   flex-direction: column;
   background-color: #E6ECF4;
   width: 480px;
+  max-height: 390px;
   padding: 20px;
   margin-right: 30px;
 }
@@ -58,6 +59,30 @@ h1 {
   padding: 10px;
 }
 
+.answer-box {
+  display: flex;
+  justify-content: center;
+}
+
+.q-a-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.user-question {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.random-answer {
+  font-weight: bold;
+  font-size: 25px;
+}
+
 .eight-ball-img {
   margin-top: 40px;
   align-self: center;
@@ -65,7 +90,7 @@ h1 {
 }
 
 #clear-button {
-  margin-top: 80px;
+  margin-top: 70px;
   align-self: flex-end;
   background-color: #D0CDCD;
   color: white;
@@ -82,4 +107,8 @@ h1 {
 .woody-img {
   height: auto;
   width: 300px;
+}
+
+.hidden {
+  visibility: hidden;
 }
