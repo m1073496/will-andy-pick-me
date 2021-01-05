@@ -14,7 +14,7 @@ function getRandomAnswer(array) {
 function showAnswer() {
   eightBall.classList.add("hidden");
   display.innerHTML =
-    `<section class="q-a-box">
+    `<section>
      <h4 class="user-question"></h4>
      <h3 class="random-answer"></h3>
      </section>`;
@@ -24,4 +24,5 @@ function showAnswer() {
 
   var randomAnswer = getRandomAnswer(answers);
   answerDisplay.innerText = `${randomAnswer}`;
+  userQuestion.value = "";
 };
