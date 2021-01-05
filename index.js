@@ -24,4 +24,5 @@ function showAnswer() {
 
   var randomAnswer = getRandomAnswer(answers);
   answerDisplay.innerText = `${randomAnswer}`;
+  userQuestion.value = "";
 };
